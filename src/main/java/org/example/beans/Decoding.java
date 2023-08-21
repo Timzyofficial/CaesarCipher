@@ -11,16 +11,13 @@ public class Decoding{
     public void setKey(int key) {
         this.key = key;
     }
-
     public void setInput (String Input ) {
         this.input = input;
     }
-
     public String getOutput() {
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         input = input.toUpperCase();
         output = "";
-
         for(int i =0; i < input.length(); i++){
             char charOfInput = input.charAt(i);
             if(charOfInput == ' ') {
@@ -37,5 +34,4 @@ public class Decoding{
         }
         return output;
     }
-
 }
