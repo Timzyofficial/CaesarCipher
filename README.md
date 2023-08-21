@@ -18,7 +18,6 @@ A Caesar cipher is a type of substitution in which each letter is shifted a cert
 ```cd ./CaesarCipher ```
 - Build the project  
 ```graddle build  ```
-- 
 ## link to live site on GitHub Pages
 
 https://github.com/Timzyofficial/CaesarCipher.git
